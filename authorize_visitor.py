@@ -1,6 +1,5 @@
 import boto3
 import json
-from datetime import datetime
 
 def authorize_visitor(face_id, name, email):
     dynamodb = boto3.resource('dynamodb')
